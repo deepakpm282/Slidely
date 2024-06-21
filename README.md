@@ -88,6 +88,13 @@ Follow these steps to set up and run the backend server locally:
     }
     ```
 
+- **/readByEmail**: 
+  - **Method**: GET
+  - **Description**: Reads all the forms submitted
+  - **Query Parameter**: `index` (0-based integer)
+  - **Example**: `GET http://localhost:7000/routes/readByEmail?email={email}`
+  - **set email = "test1@gmail.com"**
+
 - **/read**: 
   - **Method**: GET
   - **Description**: Reads all the forms submitted
