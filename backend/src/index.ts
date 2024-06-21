@@ -9,6 +9,7 @@ app.use(cors())
 
 app.use("/routes", Routes)
 
+
 app.listen(7000, () => {
     console.log("Server Running on localHost 7000")
 })
