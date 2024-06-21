@@ -1,0 +1,32 @@
+{
+  "submissions": [
+    {
+      "name": "Deepak PM",
+      "email": "iamdeepakpm282@gmail.com",
+      "phone": "9995335760",
+      "github_link": "www.google.com",
+      "stop_watch": "00:00:19"
+    },
+    {
+      "name": "Rahul",
+      "email": "Rahul@gmail.com",
+      "phone": "9998887776",
+      "github_link": "www.twitter.com",
+      "stop_watch": "00:00:21"
+    },
+    {
+      "name": "Aswin",
+      "email": "Aswin@gmail.com",
+      "phone": "999988877",
+      "github_link": "www.whatsapp.com",
+      "stop_watch": "00:00:02"
+    },
+    {
+      "name": "Aswin",
+      "email": "Aswin@gmail.com",
+      "phone": "999988877",
+      "github_link": "www.whatsapp.com",
+      "stop_watch": "00:00:06"
+    }
+  ]
+}
