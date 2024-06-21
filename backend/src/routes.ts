@@ -23,6 +23,24 @@ router.get("/ping", async(req: Request, res: Response) => {
   res.status(200).json({ message: true})
 })
 
+router.get("/readByEmail", async (req: Request, res: Response) => {
+  try {
+    const email = req.query.email as string;
+    
+    const dbData = JSON.parse(fs.readFileSync(dbPath, "utf-8"));
+    const submission = dbData.submissions.find((sub: any) => sub.email === email);
+
+    if (!submission) {
+      return res.status(404).json({ message: "Submission not found" });
+    }
+
+    res.status(200).json(submission);
+  } catch (error) {
+    console.log(error);
+    return res.status(500).json({ message: "Something went wrong" });
+  }
+});
+
 router.post("/submit", async (req: Request, res: Response) => {
   try {
     const { name, email, phone, github_link, stop_watch } = req.body;
@@ -69,7 +87,6 @@ router.get('/read', (req: Request, res: Response) => {
       }
 
       const submission = submissions[submissionIndex];
-      console.log(submission)
       res.status(200).json(submission);
   } catch (error) {
       console.error(error);

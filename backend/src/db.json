@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Deepak Pm",
-      "email": "deepakpm282@gmail.com",
+      "email": "test1@gmail.com",
       "phone": "9998887776",
       "github_link": "www.google.com",
       "stop_watch": "00:00:02"
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Abhijith M",
-      "email": "abhijith282@gmail.com",
+      "email": "test2@gmail.com",
       "phone": "9999007773",
       "github_link": "https://github.com/abhijith282",
       "stop_watch": "00:00:10"
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "Rahul PM",
-      "email": "tahulpm272@gmail.com",
+      "email": "test3@gmail.com",
       "phone": "8889990007",
       "github_link": "https://github.com/rahul232github",
       "stop_watch": "00:00:25"
