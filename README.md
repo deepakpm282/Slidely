@@ -101,6 +101,11 @@ Follow these steps to set up and run the backend server locally:
   - **Query Parameter**: `index` (0-based integer)
   - **Example**: `GET http://localhost:7000/routes/read?index=0`
 
+- **/get-total**: 
+  - **Method**: GET
+  - **Description**: Gets number of forms.
+  - **Example**: `GET http://localhost:7000/routes/get-total`
+
 ## Troubleshooting
 
 - **Common Errors**:
@@ -111,11 +116,3 @@ Follow these steps to set up and run the backend server locally:
 - **Debugging**:
   - Use the browser or tools like Postman to test the endpoints.
   - Check server logs for any error messages.
-
-## Contributing
-
-Contributions are welcome! Please create a pull request with a detailed description of your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
